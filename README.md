@@ -14,6 +14,6 @@ This repository contains resources for building Docker image for Bahmni Proxy Co
 3. Once the image is successfully built, update the image tag in the `PROXY_IMAGE_TAG` variable in the .env file in bahmni-docker repository.
 
 
-### Notes:
+## Notes:
 
   * Bahmni proxy has configuration to intercept websocket request to support [speech-assistant feature](https://github.com/Bahmni/speech-assistant-package)
